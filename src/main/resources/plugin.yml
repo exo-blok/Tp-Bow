@@ -1,0 +1,12 @@
+name: tpbow
+version: '${project.version}'
+main: test.tpbow.Tpbow
+api-version: 1.19
+commands:
+  givebow:
+    description: haha
+    permission: tpbow.givebow
+permissions:
+  tpbow.givebow:
+    description: allows givebow command
+    default: op
